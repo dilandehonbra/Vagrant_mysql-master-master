@@ -27,12 +27,6 @@ sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org
 ###Mysld PRE-CONFIG###
 
 ####################################################################################################################
-
-###Apply PRE-CONFIG###
-
-
-###Apply PRE-CONFIG###
-
 ###Mysld CONFIG###
 
 sudo mysql -u root -e "ALTER USER USER() IDENTIFIED BY 'DlsPtrd#2022';" --connect-expired-password
@@ -85,3 +79,4 @@ fi
 ###Mysld CONFIG###
 
 ####################################################################################################################
+root@DESKTOP-J3AC8SN:/opt/Vgrt/vgrt_msql-master-master#
